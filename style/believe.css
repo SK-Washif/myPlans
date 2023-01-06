@@ -48,7 +48,7 @@ nav li{
 .banner{
   display: flex;
   align-items: center;
-  margin: 216px 230px 364px 845px;
+  margin: 216px 230px 20px 845px;
 }
 
 .banner-sub-title{
@@ -97,3 +97,45 @@ nav li{
   margin: 0px 0px 166px 620px;
 
 }
+
+/* about */
+
+.about{
+  display: flex;
+}
+
+.about-photo{
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: left;
+  
+
+}
+
+.about-previous{
+  
+  border-radius: 10px;
+  padding: 130px 250px;
+  text-align: left;
+  margin: 200px 60px 0px 0px;
+  padding-left: 0;
+
+}
+
+.previous-title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+
+.previous-sub-title{
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+
