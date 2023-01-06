@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  padding: 20px 21px;
+  height: 64px;
+  border-radius: 5px;
+  background: #F15B22;
+}
+
+.header{
+  background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* header and nav style */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+nav li{
+  list-style: none;
+  margin-left: 50px;
+}
