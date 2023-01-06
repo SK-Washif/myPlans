@@ -12,6 +12,7 @@
   height: 64px;
   border-radius: 5px;
   background: #F15B22;
+  
 }
 
 .header{
@@ -25,15 +26,74 @@
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 50px 200px;
+  padding: 0px 200px;
+  background: hsla(32, 70%, 77%, 0.637);
 }
 
 nav ul{
   display: flex;
   align-items: center;
+  
 }
 
 nav li{
   list-style: none;
-  margin-left: 50px;
+  margin-left: 40px;
+  
+  
+}
+
+/* banner styles */
+
+.banner{
+  display: flex;
+  align-items: center;
+  margin: 216px 230px 364px 845px;
+}
+
+.banner-sub-title{
+  font-weight: 700;
+  font-size: 65px;
+  text-align: right;
+  color: #151414;
+}
+
+.banner-title{
+  font-weight: 700;
+  font-size: 65px;
+  text-align: right;
+  line-height: 76px;
+  color: #151414;
+}
+
+.banner-next-title{
+  font-weight: 700;
+  font-size: 65px;
+  text-align: right;
+  line-height: 76px;
+  color: #151414;
+
+}
+
+.banner-description{
+  color: #444343;
+  font-size: 16px;
+  text-align: right;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+
+.banner-buttto{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  padding: 20px 21px;
+  height: 64px;
+  border-radius: 5px;
+  background: #F15B22;
+  margin: 0px 0px 166px 620px;
+
 }
